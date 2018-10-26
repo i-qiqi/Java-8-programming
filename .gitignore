@@ -1,0 +1,20 @@
+######################
+# Maven
+######################
+/log/
+/target/
+######################
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+classes/
+out/
+######################
+# Maven Wrapper
+######################
+!.mvn/wrapper/maven-wrapper.jar
