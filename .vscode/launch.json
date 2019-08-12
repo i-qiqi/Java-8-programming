@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringTest",
+            "request": "launch",
+            "mainClass": "javaBasic.StringTest",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T153RotarySortedArrayMinValue",
+            "request": "launch",
+            "mainClass": "algo.binarysearch.T153RotarySortedArrayMinValue",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T81SearchInRotatedSortedArrayII",
+            "request": "launch",
+            "mainClass": "algo.binarysearch.T81SearchInRotatedSortedArrayII",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T33RotaryArrayBinarySearch",
+            "request": "launch",
+            "mainClass": "algo.binarysearch.T33RotaryArrayBinarySearch",
+            "projectName": "examples"
+        }
+    ]
+}
