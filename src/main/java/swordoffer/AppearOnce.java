@@ -1,10 +1,21 @@
 package swordoffer;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class AppearOnce {
     //一个整型数组里除了两个数字之外，其他的数字都出现了两次，找出这两个数
     public static void main(String args[]){
         int[] once = new int[2];
-
+        Set<String> set = new HashSet<>();
+        set.add(null);
+//        set.add("aa");
+//        set.add("bb");
+        System.out.println(set.isEmpty());
+        System.out.println(set.size()+" "+set);
+        for(String s : set){
+            System.out.println(set);
+        }
     }
 
     /**
