@@ -1,8 +1,16 @@
 package swordoffer;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class StringPermutation {
+
+    public static void main(String[] args){
+        String s = "abc";
+        Permutation(s);
+    }
+
 
     static  ArrayList<String> ans = new ArrayList<>();
     /**
@@ -10,8 +18,16 @@ public class StringPermutation {
      * @param str
      * @return
      */
-    public ArrayList<String> Permutation(String str) {
-
+    public static ArrayList<String> Permutation(String str) {
+        if(str.length() == 0){
+            return ans;
+        }
+        char[] str_arr = str.toCharArray();
+        Arrays.sort(str_arr);
+        permutationHelper(str_arr , 0 , new StringBuilder());
+        System.out.println(ans.toString());
+        Collections.sort(ans);
+        return ans;
     }
 
     public static void permutationHelper(char[] str_arr  , int begin , StringBuilder s){
@@ -22,7 +38,7 @@ public class StringPermutation {
         for(int i = begin ; i < str_arr.length ; i++){
             if(!hasRepeated(str_arr , begin , i)){
                 swap(str_arr , begin , i);
-                s.append(str_arr[i]);
+                s.append(str_arr[begin]);
                 permutationHelper(str_arr , begin+1 , s);
                 s.deleteCharAt(s.length()-1);
                 swap(str_arr, begin , i);
