@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - T37Sudoku",
+            "request": "launch",
+            "mainClass": "graphsearch.T37Sudoku",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T37Soudu",
+            "request": "launch",
+            "mainClass": "graphsearch.T37Soudu",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StringTest",
             "request": "launch",
             "mainClass": "javaBasic.StringTest",
