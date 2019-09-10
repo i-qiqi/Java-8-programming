@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - T14LongestCommonPrefix",
+            "request": "launch",
+            "mainClass": "algo.T14LongestCommonPrefix",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - T37Sudoku",
             "request": "launch",
             "mainClass": "graphsearch.T37Sudoku",
