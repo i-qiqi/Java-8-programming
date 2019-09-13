@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MinStep2Palindrome",
+            "request": "launch",
+            "mainClass": "classic.MinStep2Palindrome",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SubMaxtrixOfMaxSum",
+            "request": "launch",
+            "mainClass": "classic.SubMaxtrixOfMaxSum",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T62UniquePaths",
+            "request": "launch",
+            "mainClass": "algo.T62UniquePaths",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T60KthPermutation",
+            "request": "launch",
+            "mainClass": "algo.T60KthPermutation",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - T14LongestCommonPrefix",
             "request": "launch",
             "mainClass": "algo.T14LongestCommonPrefix",

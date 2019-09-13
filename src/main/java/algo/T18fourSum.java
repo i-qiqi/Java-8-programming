@@ -20,7 +20,7 @@ public class T18fourSum {
                 if(j - i > 1 && nums[j] == nums[j-1]) continue;
                 if(nums[i] + nums[j] + nums[j+1] + nums[j+2] > target) break;
                 if(nums[i] + nums[j] + nums[n-2] + nums[n-1] < target) continue;
-                int L = i + 1;
+                int L = j + 1;
                 int R = n - 1;
                 while(L < R){ //双指针
                     int tmp = nums[i] + nums[j] + nums[L] + nums[R];
