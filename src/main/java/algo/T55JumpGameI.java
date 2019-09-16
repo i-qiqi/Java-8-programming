@@ -21,7 +21,7 @@ public class T55JumpGameI{
         GOOD,BAD,UNKNOWN
     }
 
-    public canJump_dp(int[] nums){
+    public boolean canJump_dp(int[] nums){
         State[] mark = new State[nums.length];
 
         for(int i = 0; i < mark.length; i++){
