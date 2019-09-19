@@ -2,6 +2,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "bishi.Main",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TwoArrayKthNum",
+            "request": "launch",
+            "mainClass": "classic.TwoArrayKthNum",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinPath",
+            "request": "launch",
+            "mainClass": "graphsearch.MinPath",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BigStringNumCalculator",
+            "request": "launch",
+            "mainClass": "algo.BigStringNumCalculator",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T76MinWindow",
+            "request": "launch",
+            "mainClass": "twopointer.T76MinWindow",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T174DungeonFighter",
+            "request": "launch",
+            "mainClass": "dp.T174DungeonFighter",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T547FriendCircles",
+            "request": "launch",
+            "mainClass": "graphsearch.T547FriendCircles",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MinStep2Palindrome",
             "request": "launch",
             "mainClass": "classic.MinStep2Palindrome",
