@@ -67,8 +67,6 @@ public class T207Courses {
           }
           flags[i] = -1;
           return true;
-      }
-
     }
 
 }

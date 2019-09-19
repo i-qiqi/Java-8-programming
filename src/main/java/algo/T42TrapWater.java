@@ -36,7 +36,7 @@ public class T42TrapWater {
      * @param height
      * @return
      */
-    public int trap(int[] height){
-       
+    public int trap_1(int[] height){
+       return 0;
     }
 }

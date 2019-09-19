@@ -1,10 +1,6 @@
 package graphsearch;
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Queue;
-import java.util.List;
+import java.util.*;
 
 public class T210CoursesII {
     public int[] findOrder(int numCourses, int[][] prerequisites){

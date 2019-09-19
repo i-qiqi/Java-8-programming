@@ -3,7 +3,7 @@ package algo;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class T48MatrixRotate {
+public class T48MatrixRotate1 {
     public void rotate(int[][] matrix) {
         int len = matrix.length;
         for(int i = 0; i < len/2; ++i){
