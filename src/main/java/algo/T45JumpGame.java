@@ -1,7 +1,7 @@
 package algo;
 
 public class T45JumpGame{
-    public int jump(int[] nums){
+    public static  int jump(int[] nums){
         int end = 0;
         int max_pos = 0;
         int steps = 0;
@@ -14,4 +14,10 @@ public class T45JumpGame{
         }
         return steps;
     }
+
+    public static void main(String[] args){
+        int[] input = {2 ,2,3,0,4};
+        System.out.println(jump(input));
+      }
+  
 }

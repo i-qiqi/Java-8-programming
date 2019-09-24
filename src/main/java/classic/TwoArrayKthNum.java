@@ -29,6 +29,28 @@ public class TwoArrayKthNum{
         }
     }
 
+    //  A , B (A < B) , 系数p , q
+    // 每次操作A变成A + p 或者p 变成 p x q
+    // 至少几次操作使得B <= A
+    // 输入： 数据组数T
+    // 每行数A , B , p , q
+    // 如
+    // 2 
+    // 1 5 7 2
+    // 3 5 1 2
+
+    // 输出：
+    // 1
+    // 2
+
+    // input：
+    // 2
+    // 1 15 4 2
+    // 12 19 3 2
+
+    // output:
+    // 3
+    // 3
     public static void main(String[] args){
         int[] A = {1,2,3,4,5};
         int[] B = {3,4,5};
