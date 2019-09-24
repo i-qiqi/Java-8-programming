@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MonotonicStack",
+            "request": "launch",
+            "mainClass": "algo.MonotonicStack",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JosephGame",
+            "request": "launch",
+            "mainClass": "swordoffer.JosephGame",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T300LIS",
+            "request": "launch",
+            "mainClass": "algo.T300LIS",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - T45JumpGame",
             "request": "launch",
             "mainClass": "algo.T45JumpGame",

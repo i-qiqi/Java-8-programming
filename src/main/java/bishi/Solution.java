@@ -8,8 +8,9 @@ public class Solution{
       report(input, 6, 0);
     }
 
-    public static void  report(int[] nums, int n , int i){
+    public static void  report(int n , int i){
         if(n == 0) return ;
+        if(n == 1) return ;
         System.out.println(nums[i % n]);
         report(nums , n, i + 3);
     }
