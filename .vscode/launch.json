@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DicesSum",
+            "request": "launch",
+            "mainClass": "swordoffer.DicesSum",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IOClient",
+            "request": "launch",
+            "mainClass": "io.bio.IOClient",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IOServer",
+            "request": "launch",
+            "mainClass": "io.bio.IOServer",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T77Combination",
+            "request": "launch",
+            "mainClass": "algo.T77Combination",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KMP",
+            "request": "launch",
+            "mainClass": "algo.KMP",
+            "projectName": "examples"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MonotonicStack",
             "request": "launch",
             "mainClass": "algo.MonotonicStack",
